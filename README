@@ -1,0 +1,16 @@
+# Copyright (C) 2012
+# Tejas Bubane (tejasbubane@gmail.com)
+# Date: 5 Apr 2012 # Time: 03:16
+# Licence: GPL version 3
+==============================================================================================================
+Note: Tested on my Nokia 2730c connected via bluetooth and should work on all phones supported by gammu.
+For phones which are not S-40 or if you want to connect the phone via USB-cable, the gammurc file needs to be changed accordingly. Refer http://wammu.eu/docs/manual/faq/config.html
+If you have an S-40 phone having bluetooth, set it in automatic pairing mode with your PC and go on reading further...
+===============================================================================================================
+This is a simple python program that can send sms through a connected phone.
+It uses gammu python APIs (python-gammu).
+
+Usage:
+	Place the gammurc file in the /etc/ folder
+		cp gammurc /etc/
+	Then run the python script, enter the recepient number, enter the message and its delivered..!!
