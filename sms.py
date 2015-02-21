@@ -10,8 +10,8 @@ number = raw_input('Number: ')
 msg = raw_input('Message: ')
 sm.Init()
 message = {
-	'Text': str(msg),
-	'SMSC': {'Location': 1},
-	'Number': str(number),
-	}
+    'Text': str(msg),
+    'SMSC': {'Location': 1},
+    'Number': str(number),
+}
 sm.SendSMS(message)
